@@ -1,0 +1,33 @@
+header{
+    background:rgb(2, 83, 83);
+
+    .nav{
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    
+        &__list{
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+        
+        &__item{
+    
+          a{
+            text-decoration: none;
+            font-weight: 700;
+          }
+    
+          a:hover{
+            color:rgb(8, 221, 8);
+          }
+        }
+        
+          
+        }
+    
+    }
+}
+ 
